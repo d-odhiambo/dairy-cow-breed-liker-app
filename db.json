@@ -1,0 +1,114 @@
+{
+  "breeds": [
+    {
+      "id": "1",
+      "name": "Holstein Friesian",
+      "origin": "Netherlands",
+      "milkPerDay": 32,
+      "weightKg": 680,
+      "temperament": "Docile",
+      "image": "https://cdn.britannica.com/11/136111-050-174C2796/Holstein-cow.jpg?w=300",
+      "likes": 3,
+      "_liked": false
+    },
+    {
+      "id": "2",
+      "name": "Jersey",
+      "origin": "Jersey Island",
+      "milkPerDay": 25,
+      "weightKg": 450,
+      "temperament": "Gentle",
+      "image": "https://cdn.britannica.com/22/522-050-25222A61/Jersey-cow.jpg?w=300",
+      "likes": 0,
+      "_liked": false
+    },
+    {
+      "id": "3",
+      "name": "Guernsey",
+      "origin": "Guernsey",
+      "milkPerDay": 22,
+      "weightKg": 500,
+      "temperament": "Friendly",
+      "image": "https://cdn.britannica.com/20/520-050-A5A47504/Guernsey-cow.jpg?w=300",
+      "likes": 0,
+      "_liked": false
+    },
+    {
+      "id": "4",
+      "name": "Brown Swiss",
+      "origin": "Switzerland",
+      "milkPerDay": 30,
+      "weightKg": 635,
+      "temperament": "Calm",
+      "image": "https://cdn.britannica.com/21/521-050-0C8E21D8/cow-Brown-Swiss.jpg?w=300",
+      "likes": 0,
+      "_liked": false
+    },
+    {
+      "id": "5",
+      "name": "Ayrshire",
+      "origin": "Scotland",
+      "milkPerDay": 27,
+      "weightKg": 545,
+      "temperament": "Energetic",
+      "image": "https://cdn.britannica.com/25/525-050-2C177308/Ayrshire-cow.jpg?w=300",
+      "likes": 0,
+      "_liked": false
+    },
+    {
+      "id": "6",
+      "name": "Milking Shorthorn",
+      "origin": "England",
+      "milkPerDay": 26,
+      "weightKg": 600,
+      "temperament": "Hardy",
+      "image": "https://eu-images.contentstack.com/v3/assets/bltdd43779342bd9107/blt9d0a7ebb35359d93/6390621cc9a7567df407f801/milking-shorthorn-cowofyear-debruin1002T1-2605A2_0.jpg?width=1280&auto=webp&quality=80&format=jpg&disable=upscale",
+      "likes": 0,
+      "_liked": false
+    },
+    {
+      "id": "7",
+      "name": "Red Sindhi",
+      "origin": "Pakistan",
+      "milkPerDay": 18,
+      "weightKg": 410,
+      "temperament": "Adaptable",
+      "image": "https://kj1bcdn.b-cdn.net/media/68039/red-sindhi-cattle.jpg",
+      "likes": 0,
+      "_liked": false
+    },
+    {
+      "id": "8",
+      "name": "Sahiwal",
+      "origin": "Pakistan/India",
+      "milkPerDay": 20,
+      "weightKg": 425,
+      "temperament": "Quiet",
+      "image": "https://docs.krishnayangauraksha.org/blog/09_08_2024_15_13_37_What%20is%20Sahiwal%20Cow.jpg",
+      "likes": 0,
+      "_liked": false
+    },
+    {
+      "id": "9",
+      "name": "Dexter",
+      "origin": "Ireland",
+      "milkPerDay": 12,
+      "weightKg": 300,
+      "temperament": "Lively",
+      "image": "https://dextercattle.org/wp-content/uploads/2019/11/Cow.jpg",
+      "likes": 0,
+      "_liked": false
+    },
+    {
+      "id": "10",
+      "name": "Norwegian Red",
+      "origin": "Norway",
+      "milkPerDay": 28,
+      "weightKg": 620,
+      "temperament": "Balanced",
+      "image": "https://www.norwegianred.com/contentassets/1dbb060ce2824384a289fa30a7340169/20070619eg0002-1500.jpg?width=920",
+      "likes": 0,
+      "_liked": false
+    }
+  ]
+}

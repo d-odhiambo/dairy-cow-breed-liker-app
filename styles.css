@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#toggle-theme {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+/* Layout */
+main {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+
+/* Left panel (Breed List) */
+#breed-list {
+  width: 30%;
+  background-color: #ccddb6;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.breed-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.breed-item:hover {
+  background-color: #d9ca6c;
+}
+
+/* Right panel (Breed Details) */
+#breed-details {
+  width: 70%;
+  padding: 1rem;
+  background-color: rgb(228, 232, 236);
+}
+
+img.breed-image {
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Like button */
+button.like-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #4cacaf;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.like-btn:hover {
+  background-color: #388e3c;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  background-color: #7cc997;
+  color: #f0f0f0;
+}
+
+body.dark-theme #breed-list {
+  background-color: #e4a3e0;
+}
+
+body.dark-theme #breed-details {
+  background-color: #a38181;
+}
+
+body.dark-theme .breed-item:hover {
+  background-color: #444;
+}
+
+body.dark-theme button.like-btn {
+  background-color: #66bb6a;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Extra image interactivity */
+img.breed-image {
+  transition: all 0.3s ease;
+  border: 3px solid transparent;
+  box-shadow: 0 4px 8px rgba(102, 5, 37, 0.1);
+}
+
+img.breed-image:hover {
+  transform: scale(1.03);
+  border-color: #4cacaf;
+  box-shadow: 0 6px 12px rgba(76, 172, 175, 0.4);
+  opacity: 0.95;
+  cursor: pointer;
+}
+
