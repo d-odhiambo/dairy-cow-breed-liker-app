@@ -38,7 +38,7 @@ function showBreedDetails(breed) {
       <p><strong>Origin:</strong> ${breed.origin}</p>
       <p><strong>Milk Per Day:</strong> ${breed.milkPerDay} L</p>
       <p><strong>Weight:</strong> ${breed.weightKg} kg</p>
-      <p><strong>Temperament:</strong> ${breed.temperament}</p>
+      <p><strong>Description:</strong> ${breed.description}</p>
       <p><strong>Likes:</strong> <span id="likes-count">${breed.likes}</span></p>
       <button class="like-btn" id="like-btn">
         ${isLiked ? "👎 Unlike" : "👍 Like"}
