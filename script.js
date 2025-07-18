@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => { // Waits until the page is
       breeds.forEach(displayBreedInList); // If successful, it loops through each breed and displays it using displayBreedInList.
     })
     .catch((error) => { // If there's an error, it displays an error message.
-      breedListEl.innerHTML = "<p style='color:red;'>⚠️ Could not load breeds. Is json-server running?</p>";
+      breedListEl.innerHTML = "<p style='color:red;'>Could not load breeds. Is json-server running?</p>";
       console.error("Fetch error:", error);
     });
 
