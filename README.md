@@ -4,7 +4,7 @@
 The Dairy Cow Breed Liker App is a dynamic, interactive single-page web application that allows users to explore various dairy cow breeds, view detailed information, and "like" or "unlike" breeds. It integrates animations, asynchronous data handling, and modern UI elements to enhance the user experience.
 
 ## Installation
-To set up the project locally:
+To set up the project locally, follow the steps;
 
 1. **Clone the repository**
    git clone https://github.com/d-odhiambo/dairy-cow-breed-liker-app.git
