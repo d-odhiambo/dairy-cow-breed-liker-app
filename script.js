@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => { // Waits until the page is
     document.body.classList.toggle("dark-theme");
   });
 });
-
+// Creating a <div> for each breed name, adding a class for styling, adding a click event to show breed details when selected, and appending it to the breed list container.
 function displayBreedInList(breed) {
   const item = document.createElement("div");
   item.textContent = breed.name;
@@ -26,10 +26,10 @@ function displayBreedInList(breed) {
   item.addEventListener("click", () => showBreedDetails(breed));
   breedListEl.appendChild(item);
 }
-
+// Checking if the breed was previously liked
 function showBreedDetails(breed) {
   const isLiked = breed._liked === true;
-
+// Then sets the inner HTML which displays breed data like image, origin, milk production, weight, temperament, likes, and a like/unlike button.
   detailsEl.innerHTML = `
     <div style="animation: fadeIn 0.3s ease-in-out;">
       <h3>${breed.name}</h3>
@@ -44,12 +44,12 @@ function showBreedDetails(breed) {
       </button>
     </div>
   `;
-
+// Calculating new likes based on whwther the breed is already liked
   const likeBtn = document.getElementById("like-btn");
   likeBtn.addEventListener("click", () => {
     const newLikes = isLiked ? breed.likes - 1 : breed.likes + 1;
     const newState = !isLiked;
-
+// Sending the update to the server using PATCH to update likes and unlikes then re-renders the deatils
     fetch(`${BASE_URL}/${breed.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
