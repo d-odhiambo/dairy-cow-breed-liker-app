@@ -4,17 +4,17 @@ const detailsEl = document.getElementById("details-content"); // HTML element wh
 const toggleBtn = document.getElementById("toggle-theme"); // Button that toggles between light and dark themes.
 
 document.addEventListener("DOMContentLoaded", () => { // Waits until the page is fully loaded.
-  fetch(BASE_URL)
+  fetch(BASE_URL) // Fetches cow breeds from the API.
     .then((res) => res.json())
     .then((breeds) => {
-      breeds.forEach(displayBreedInList);
+      breeds.forEach(displayBreedInList); // If successful, it loops through each breed and displays it using displayBreedInList.
     })
-    .catch((error) => {
+    .catch((error) => { // If there's an error, it displays an error message.
       breedListEl.innerHTML = "<p style='color:red;'>⚠️ Could not load breeds. Is json-server running?</p>";
       console.error("Fetch error:", error);
     });
 
-  toggleBtn.addEventListener("click", () => {
+  toggleBtn.addEventListener("click", () => { // Adds an event listener to the theme toggle button that switches the site to dark mode by toggling a CSS class.
     document.body.classList.toggle("dark-theme");
   });
 });
