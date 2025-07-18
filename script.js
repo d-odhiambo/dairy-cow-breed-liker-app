@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000/breeds";
+const BASE_URL = "https://dairy-cow-breed-liker-app-1.onrender.com/breeds";
 
 const breedListEl = document.getElementById("breed-list");
 const detailsEl = document.getElementById("details-content");
