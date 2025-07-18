@@ -1,10 +1,9 @@
-const BASE_URL = "https://dairy-cow-breed-liker-app-1.onrender.com/breeds";
+const BASE_URL = "https://dairy-cow-breed-liker-app-1.onrender.com/breeds"; // The API endpoint where breed data is fetched.
+const breedListEl = document.getElementById("breed-list"); // HTML element where the breed list will be displayed.
+const detailsEl = document.getElementById("details-content"); // HTML element where details of a selected breed will appear.
+const toggleBtn = document.getElementById("toggle-theme"); // Button that toggles between light and dark themes.
 
-const breedListEl = document.getElementById("breed-list");
-const detailsEl = document.getElementById("details-content");
-const toggleBtn = document.getElementById("toggle-theme");
-
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => { // Waits until the page is fully loaded.
   fetch(BASE_URL)
     .then((res) => res.json())
     .then((breeds) => {
