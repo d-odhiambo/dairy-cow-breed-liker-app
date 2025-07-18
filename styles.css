@@ -13,7 +13,7 @@ body {
 /* Header */
 header {
   background-color: #4caf50;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 1rem;
   text-align: center;
   position: sticky;
@@ -52,7 +52,7 @@ main {
 }
 
 .breed-item:hover {
-  background-color: #d9ca6c;
+  background-color: #c9ba57;
 }
 
 /* Right panel (Breed Details) */
@@ -67,7 +67,7 @@ img.breed-image {
   max-width: 400px;
   height: 250px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 /* Like button */
