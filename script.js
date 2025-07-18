@@ -66,7 +66,7 @@ function showBreedDetails(breed) {
       })
       .catch((error) => console.error("Like/unlike error:", error));
   });
-  // Cow image event listener
+  // Cow image event listener adds an interaction when the user clicks on the image, triggering an alert.
   const cowImage = document.getElementById("cow-image");
   cowImage.addEventListener("click", () => {
     alert(`You clicked on ${breed.name}!`);
