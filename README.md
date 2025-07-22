@@ -9,6 +9,8 @@ To set up the project locally, follow the steps;
 1. **Clone the repository**
    git clone https://github.com/d-odhiambo/dairy-cow-breed-liker-app.git
 
+   https://github.com/d-odhiambo/dairy-cow-breed-liker-app
+
 2. **Navigate to the project folder**
    cd dairy-cow-breed-liker-app
 
@@ -58,7 +60,7 @@ code .
 
 -VS Code
 
--Git & GitHub
+-Git & GitHub (https://github.com/d-odhiambo/dairy-cow-breed-liker-app)
 
 ## Contributing
 Contributions are welcome. To contribute:
